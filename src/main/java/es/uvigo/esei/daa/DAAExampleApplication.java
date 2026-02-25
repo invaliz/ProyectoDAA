@@ -1,7 +1,7 @@
 package es.uvigo.esei.daa;
 
 import static java.util.stream.Collectors.toSet;
-
+ 
 import java.util.Collections;
 import java.util.Map;
 import java.util.Set;
@@ -11,6 +11,7 @@ import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
 import es.uvigo.esei.daa.rest.PeopleResource;
+import es.uvigo.esei.daa.rest.PetsResource;
 import es.uvigo.esei.daa.rest.UsersResource;
 
 /**
@@ -22,19 +23,20 @@ import es.uvigo.esei.daa.rest.UsersResource;
  */
 @ApplicationPath("/rest/*")
 public class DAAExampleApplication extends Application {
-	@Override
-	public Set<Class<?>> getClasses() {
-		return Stream.of(
-			PeopleResource.class,
-			UsersResource.class
-		).collect(toSet());
-	}
-	
-	@Override
-	public Map<String, Object> getProperties() {
-		// Activates JSON automatic conversion in JAX-RS
-		return Collections.singletonMap(
-			"com.sun.jersey.api.json.POJOMappingFeature", true
-		);
-	}
+    @Override
+    public Set<Class<?>> getClasses() {
+        return Stream.of(
+            PeopleResource.class,
+            PetsResource.class,
+            UsersResource.class
+        ).collect(toSet());
+    }
+    
+    @Override
+    public Map<String, Object> getProperties() {
+        // Activates JSON automatic conversion in JAX-RS
+        return Collections.singletonMap(
+            "com.sun.jersey.api.json.POJOMappingFeature", true
+        );
+    }
 }

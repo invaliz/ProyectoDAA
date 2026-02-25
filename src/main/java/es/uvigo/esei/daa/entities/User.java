@@ -1,7 +1,7 @@
 package es.uvigo.esei.daa.entities;
 
 import static java.util.Objects.requireNonNull;
-
+ 
 /**
  * An entity that represents a user.
  * 
