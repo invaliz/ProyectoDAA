@@ -1,0 +1,16 @@
+127.0.0.1 - - [05/Mar/2026:09:02:29 +0100] "GET /cargocpc/index.html HTTP/1.1" 200 124
+127.0.0.1 - - [05/Mar/2026:09:02:36 +0100] "GET /DAAExample HTTP/1.1" 302 -
+127.0.0.1 - - [05/Mar/2026:09:02:36 +0100] "GET /DAAExample/ HTTP/1.1" 200 1636
+127.0.0.1 - - [05/Mar/2026:09:02:36 +0100] "GET /DAAExample/css/login.css HTTP/1.1" 200 750
+127.0.0.1 - - [05/Mar/2026:09:02:36 +0100] "GET /DAAExample/js/login.js HTTP/1.1" 200 542
+127.0.0.1 - - [05/Mar/2026:09:02:36 +0100] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - admin [05/Mar/2026:09:02:39 +0100] "GET /DAAExample/rest/users/admin HTTP/1.1" 200 110
+127.0.0.1 - - [05/Mar/2026:09:02:39 +0100] "GET /DAAExample/main.html HTTP/1.1" 200 2050
+127.0.0.1 - - [05/Mar/2026:09:02:39 +0100] "GET /DAAExample/js/view/pets.js HTTP/1.1" 200 8708
+127.0.0.1 - - [05/Mar/2026:09:02:39 +0100] "GET /DAAExample/js/dao/pets.js HTTP/1.1" 200 1632
+127.0.0.1 - - [05/Mar/2026:09:02:39 +0100] "GET /DAAExample/js/view/people.js HTTP/1.1" 200 5040
+127.0.0.1 - - [05/Mar/2026:09:02:39 +0100] "GET /DAAExample/js/dao/people.js HTTP/1.1" 200 1288
+127.0.0.1 - admin [05/Mar/2026:09:02:39 +0100] "GET /DAAExample/rest/people/ HTTP/1.1" 200 441
+127.0.0.1 - admin [05/Mar/2026:09:02:39 +0100] "GET /DAAExample/rest/people/ HTTP/1.1" 200 441
+127.0.0.1 - admin [05/Mar/2026:09:02:39 +0100] "GET /DAAExample/rest/pets/ HTTP/1.1" 200 823
+127.0.0.1 - admin [05/Mar/2026:09:02:56 +0100] "PUT /DAAExample/rest/pets/1 HTTP/1.1" 200 70

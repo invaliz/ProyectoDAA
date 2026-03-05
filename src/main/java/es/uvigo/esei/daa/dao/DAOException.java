@@ -1,5 +1,5 @@
 package es.uvigo.esei.daa.dao;
-
+ 
 /**
  * A general exception class for the DAO layer.
  * 

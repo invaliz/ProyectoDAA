@@ -18,4 +18,4 @@ function doLogin(login, password) {
 function doLogout() {
     localStorage.removeItem('authorization-token');
     window.location = 'index.html';
-}
+} 

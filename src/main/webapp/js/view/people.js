@@ -23,7 +23,7 @@ var PeopleView = (function() {
 				});
 			},
 			function() {
-			    	alert('No has sido posible acceder al listado de personas.');
+			    	alert('No ha sido posible acceder al listado de personas.');
 			});
 			
 			// La acción por defecto de enviar formulario (submit) se sobreescribe
@@ -51,7 +51,7 @@ var PeopleView = (function() {
 						self.enableForm
 					);
 				}
-				
+				 
 				return false;
 			});
 			
